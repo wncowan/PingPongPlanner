@@ -1,0 +1,11 @@
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/bin/Debug/netcoreapp2.0/PingPongPlanner.deps.json
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/bin/Debug/netcoreapp2.0/PingPongPlanner.runtimeconfig.json
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/bin/Debug/netcoreapp2.0/PingPongPlanner.runtimeconfig.dev.json
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/bin/Debug/netcoreapp2.0/PingPongPlanner.dll
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/bin/Debug/netcoreapp2.0/PingPongPlanner.pdb
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/obj/Debug/netcoreapp2.0/PingPongPlanner.csprojResolveAssemblyReference.cache
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/obj/Debug/netcoreapp2.0/PingPongPlanner.csproj.CoreCompileInputs.cache
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/obj/Debug/netcoreapp2.0/PingPongPlanner.AssemblyInfoInputs.cache
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/obj/Debug/netcoreapp2.0/PingPongPlanner.AssemblyInfo.cs
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/obj/Debug/netcoreapp2.0/PingPongPlanner.dll
+/Users/wesleycowan/Desktop/DojoAssignments/netCore/PingPongPlanner/obj/Debug/netcoreapp2.0/PingPongPlanner.pdb

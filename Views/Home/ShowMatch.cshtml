@@ -1,0 +1,53 @@
+<h1>@ViewBag.Match.PlayerOne & @ViewBag.Match.PlayerTwo Match</h1>
+<h3>Date: @ViewBag.Match.Date.ToString("D")</h3>
+<h3>Address: @ViewBag.Match.Address</h3>
+
+@{
+    if(ViewBag.Winner != null)
+    {
+        <h3>Winner id: @ViewBag.Winner.Username</h3>
+        <h3>Loser id: @ViewBag.Loser.Username</h3>
+    }
+}
+
+
+
+
+<h4>Guests:</h4>
+@if(ViewBag.Guests != null)
+{
+    @foreach(var guest in @ViewBag.Guests)
+    {
+        <li>@guest.User.Username </li>
+    }
+}
+
+<h4>Forum</h4>
+<form action="/matches/@ViewBag.Match.Id/post" method="POST">
+    <textarea name="content" rows="4" cols="50" placeholder="Post about this match..."></textarea><br><br>
+    <input type="submit" value="Post">
+</form>
+
+@{
+    if(ViewBag.Posts != null)
+    {
+        foreach(var post in ViewBag.Posts)
+        {
+        <h4>@post.Creator.Username Says: @post.Content</h4>
+            foreach(var comment in post.Comments)
+            {
+                <h6>@comment.Creator.Username replies: @comment.Content</h6>
+            }
+
+
+        <form action="/matches/@ViewBag.Match.Id/@post.PostId/comment" method="POST">
+            <textarea name="content" rows="4" cols="50" placeholder="Leave a comment"></textarea><br><br>
+            <input type="submit" value="Comment">
+        </form>
+        }
+    }
+}
+
+
+<hr>
+<p><a href="/dashboard">Dashboard</a> | <a href="/logout">Logout</a></p>
